@@ -216,7 +216,8 @@ const Tiki_Ok = ({ navigation }) => {
               width: 330,
               alignItems: 'center',
               justifyContent: 'center',
-            }}>
+            }}
+            onPress={() => navigation.navigate('Screen2_c')}>
             <Text style={{ fontSize: 20, color: 'white', fontWeight: 700 }}>
               TIẾN HÀNH ĐẶT HÀNG
             </Text>
@@ -234,7 +235,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'space-between',
     backgroundColor: '#C4C4C4',
-    width: 360,
+    width: 410,
   },
   inforContainer: {
     flex: 6,
